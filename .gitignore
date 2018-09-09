@@ -1,0 +1,7 @@
+
+target/generated-sources/
+target/*
+
+ out
+.idea/workspace.xml
+.idea/*
