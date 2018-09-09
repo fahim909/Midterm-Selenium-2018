@@ -1,5 +1,6 @@
 package algorithm;
 
+import databases.ConnectToMongoDB;
 import databases.ConnectToSqlDB;
 
 import java.util.List;
@@ -22,9 +23,14 @@ public class Numbers {
 
 	public static void main(String[] args) throws Exception {
 		
-		int [] num = new int[100];
-		storeRandomNumbers(num);
-		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
+		int [] num = new int[1000000];
+
+		Random rand = new Random();
+		for(int i=0; i<num.length; i++){
+		    num[i] = rand.nextInt(10000);
+        }
+
+        ConnectToSqlDB connectDB = new ConnectToSqlDB();
 		//Selection Sort
 		Sort algo = new Sort();
 		algo.selectionSort(num);

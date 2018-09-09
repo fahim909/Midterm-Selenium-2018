@@ -11,6 +11,28 @@ public class Factorial {
          * Write a java program to find Factorial of a given number using Recursion as well as Iteration.
          *
          */
+        int number = 5;
+        int fact = 1;
+        int i;
+        for (i=1;i<=number;i++) {
+            fact = fact * i;
+        }
+
+        System.out.println("The Factorial of Number 5 is :" + fact);
+
+        // Recursion Method to find the factorial of 5
+
+        int factorial = fact(5);
+        System.out.println("The factorial of the 5 is:" + factorial);
+    }
+    static int fact(int n)
+    {
+        int x;
+        if (n==1){
+            return 1; }
+        else {
+            x = n*fact(n-1);
+            return x; }
 
     }
 }
