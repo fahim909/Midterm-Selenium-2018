@@ -1,39 +1,78 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A. It is a set of instructions used to execute commands on a computer with various results.
 What jdk contains or composed of and define each components?
+A. The Runtime Interpreter runs Java bytecodes. The compiler compiles code into a .class file which is
+machine readable. The .class file is run through a Java virtual machine where it is executed.
 What is IDE?
+A. Integrated development environment is software where you can write and run codes.
 What are the IDEs available in the market to support java?
+A. Eclipse, Intellij, Android studio, etc.
 Explain the entire java life cycle.
+A. The Runtime Interpreter runs Java bytecodes. The compiler compiles code into a .class file which is
+   machine readable. The .class file is run through a Java virtual machine where it is executed.
 what is class?
+A. Java class is the blueprint for an object.
 What is object?
+A. Objects are instances of a class.
 What is the entry point of an application?
+A. That would be the main method.
 Why main is static?
+A. Because main is invoked by jvm before objects are created. Being static lets it be directly invoked by the class.
 Which class is the superclass of all classes?
+A. java.lang.object is the superclass.
 What is difference between path and classpath variables?
+A. Path is the environment variable where we specify the locations of binaries and classpath is
+the path for Java application where the classes you compiled will be available.
 What is the difference between an Interface and Abstract class?
+A. An interface is an empty shell while abstract class looks like a interface but they are actual classes.
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A.No you can't make an object from interface or abstract class.
 what is Access Specifier?
+A. The access specifier is used to determine the visibility of methods and variables.
 What is OOP ? Define each feature of java OOP.
+A. OOP is object oriented programming. This refers to abstraction, encapsulation, inheritance, and polymorphism.
 What is Java Package and which package is imported by default?
+A. Java package organizes java classes into namespaces and java.lang package is imported by default.
 What is API? Name list of API that you have used so far.
+A. Application programming interface is basically a set of routines, protocols, and tools for
+building software applications.
 Does java support multiple inheritance, explain why or why not?
+A. No it does not.
 What is method overloading and when it happens?
+A. This when the same method uses a different signature and it happens within a class.
 Explain exceptions in java and how to handle it.
+A. An exception occurs during the execution of a program and is a disruption that interrupts the flow of the
+programs instructions.
 What is static keyword in java? How it has been used in variables and methods ?
+A. Static is a member of a class that is not associated with an instance of a class.
 What is final and how it has been used variables and methods?
+A. Final is used with variables to specify that it's value should not be changed.
 What is final, finally and finalize?
+A. Final is used with variables to specify that it's value should not be changed. Finally wil execute important code
+whether the exception is handled or not and finalize is used for clean up process before the object is garbage
+is collected.
 What is a constructor ?
+A. It is used to initialize a class.
 Can we have multiple constructors in a class?
+A. Yes we can.
 If we don't have a constructor declared, what is called during the object creation?
+A. A default empty constructor will be generated if you don't give one.
 What is "this" keyword in java ?
+A. It represents instance of a class.
 What is "super" keyword in java? How many possible way can you use?
+A. This keyword is used to access members of a super class by the extended class.
 What is JVM stand for ?
+A. Java Virtual Machine
 Is JVM platform independent?
+A. No JVM is platform dependent.
 What version of java are you using?
+A. Java Version 10.0.2
 What is JAR stand for ?
-What is the difference between JDK and JVM?
+A. Java Archive
+What is the difference between JDK and JVM?]
+A.
 What is the difference between JVM and JRE?
 What is compile time and run time?
 What is heap?

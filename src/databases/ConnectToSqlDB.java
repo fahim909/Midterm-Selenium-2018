@@ -42,7 +42,7 @@ public class ConnectToSqlDB {
         return connect;
     }
 
-    public List<String> readDataBase(String tableName, String columnName)throws Exception{
+    public static List<String> readDataBase(String tableName, String columnName)throws Exception{
         List<String> data = new ArrayList<String>();
 
         try {
@@ -83,7 +83,7 @@ public class ConnectToSqlDB {
         return dataList;
     }
 
-    public void insertDataFromArrayToSqlTable(int [] ArrayData, String tableName, String columnName)
+    public static void insertDataFromArrayToSqlTable(int[] ArrayData, String tableName, String columnName)
     {
         try {
             connectToSqlDatabase();

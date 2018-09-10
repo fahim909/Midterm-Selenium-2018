@@ -72,35 +72,69 @@ A. Java Version 10.0.2
 What is JAR stand for ?
 A. Java Archive
 What is the difference between JDK and JVM?]
-A.
+A. JVM runs bytecode and JDK is needed to compile Java source code.
 What is the difference between JVM and JRE?
+A. JRE is basically like a container and JVM is the content.
 What is compile time and run time?
+A. Compile time is when the .java file becomes .class file. Run time is when you execute the program.
 What is heap?
+A. Heap is part of RAM. The heap is the run-time data area from which memory for all class instances
+and arrays is allocated.
 How java manage it's memory?
+A. All variables stay in stack while heap contains the objects.
 What is the difference between String, StringBuffer and StringBuilder?
+A. String can't be changed so if you change the value another object is created where in stringbuffer and
+builder you can change it.
 What is Singleton class?
+A. A class that can only have one object.
 What is Serialization and Deserialization?
+A. Serialization is when you turn data into a stream of bytes and Deserialization is turn a stream of bytes
+back into a copy of the original object.
 when to use transient variable in java?
+A. It is a variable that can't be serialized. It is used to indicate to the JVM that the variable is not part of
+the persistent state of the object.
 Difference between while and do..while loop?
+A. While loop will only execute when the condition is true and while loop will execute the statements once even if
+the condition fails.
 What is Enum?
+A. A Java Enum is a special Java type used to define collections of constants.
 What is Iterator?
+A. Iterator enables you to cycle through a collection, obtaining or removing elements.
 Which one will take more memory, an int or Integer?
+A. Integer takes more memory.
 Why is String Immutable in Java?
+A. For security issues.
 What is constructor chaining in Java?
+A. Constructor chaining is the process of calling one constructor from another constructor with respect to current
+object.
 The difference between Serial and Parallel Garbage Collector?
+A. The serial collector uses a single thread to perform all garbage collection work and parallel collector
+performs minor collections in parallel, which can significantly reduce garbage collection.
 What is JIT stands for?
+A. Just-In-Time
 Explain Java Heap space and Garbage collection?
+A. At run-time the Java instances are stored in the heap memory area and Java garbage collection is an automatic
+process to manage the runtime memory used by programs.
 Can you guarantee the garbage collection process?
+A. No it is not guaranteed.
 What is the difference between stack and heap in Java?
+A. Heap is used to store objects while stack is used to store local variables and functions.
 What is reflection in java and why is it useful?
+A. Is a process of examining or modifying the run time behavior of a class at run time.
 what is multithreading in java?
+A. Basically is a process of executing multiple threads simultaneously.
 What is the use of synchronization in Java?
+A. Synchronization allows you to control how different threads will execute a piece of code.
 What is Framework?
+A. Java Frameworks is just large bodies of predefined Java code.
 What are the testing Framework available in java?
+A. JUnit, Selenium, Cucumber, etc.
 Difference between jUnit and testNG?
+A. The difference is their scopes.
 What are the dependencies for this project?
 what is dependency injection in java?
 What is static binding and dynamic binding?
+A. Static binding occurs during compile time while dynamic binding occurs during runtime.
 
 
 
