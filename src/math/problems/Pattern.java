@@ -8,8 +8,21 @@ public class Pattern {
 		 *
 		 *
 		 */
-		
+		int count = 1, j = 0;
+		int num = 100;
+		LowestNumber.ConnectDB connectDB = new LowestNumber.ConnectDB();
+		List<String> storePattern = new ArrayList<String>();
+		int[] array = new int[40];
 
+		while (num > 0) {
+			for (int i = 0; i < 10; i++) {
+				System.out.print(" " + num);
+				array[j] = num;
+				num -= count;
+				j++;
 
+			}
+			int i = count++;
+		}
 	}
 }

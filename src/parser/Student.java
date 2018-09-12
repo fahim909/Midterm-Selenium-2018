@@ -52,10 +52,11 @@ public class Student implements Serializable {
 		this.id = id;
 	}
 
-	
+
 	@Override
 	public String toString(){
 		return "Student" + "("+"id= "+id+")"+ firstName+" "+lastName+" "+" Grade = "+score;
 	}
-	
+
 }
+

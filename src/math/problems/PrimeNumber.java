@@ -6,7 +6,7 @@ import java.util.List;
 
 public class PrimeNumber {
 
-	public int[] array = new int[789543]; // total # of primes
+	public int[] array1 = new int[315299]; // total # of primes
 
 	void sieveOfEratosthenes(int n) throws Exception {
 		// Create a boolean array "prime[0..n]" and initialize
@@ -32,7 +32,7 @@ public class PrimeNumber {
 		// Print all prime numbers
 		for (int i = 2; i <= n; i++) {
 			if (prime[i] == true) {
-				array [j] = i;
+				array1 [j] = i;
 				System.out.print(i + " ");
 				j++;
 			}
@@ -41,7 +41,7 @@ public class PrimeNumber {
 		final long executionTime = endTime - startTime;
 		System.out.println("\nTime it takes to calculate prime number from 1,000,000 numbers: "+executionTime+" milliseconds");
 
-		ConnectToSqlDB.insertDataFromArrayToSqlTable(array, "tbl_Prime_Number", "column_Prime_Number");
+		ConnectToSqlDB.insertDataFromArrayToSqlTable(array1, "tbl_Prime_Number", "column_Prime_Number");
 		storePattern = ConnectToSqlDB.readDataBase("tbl_Prime_Number", "column_Prime_Number");
 		System.out.println("Data is being read from the Table (tablePrimeNumber) and displaying to the console");
 		for (String st : storePattern) {
